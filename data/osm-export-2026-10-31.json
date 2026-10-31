@@ -1,0 +1,722 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.4 2390de5a",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-31T07:21:20Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1005395546,
+      "lat": 4.603599,
+      "lon": -74.0551726,
+      "tags": {
+        "public_transport": "station",
+        "railway": "station",
+        "station": "funicular"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1151938687,
+      "lat": 4.6046553,
+      "lon": -74.0556631,
+      "tags": {
+        "aerialway": "station",
+        "aerialway:access": "both",
+        "aerialway:summer:access": "both",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1315449025,
+      "lat": 4.598108,
+      "lon": -74.06485,
+      "tags": {
+        "bus": "yes",
+        "name": "Universidad Distrital FAMARENA",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "stop_position",
+        "ref:sitp": "498A00",
+        "source": "BogoMap"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3902481043,
+      "lat": 4.6029639,
+      "lon": -74.0619257,
+      "tags": {
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "Teleférico de Monserrate",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "508A00",
+        "shelter": "no",
+        "source": "BogoMap"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3902481044,
+      "lat": 4.6030255,
+      "lon": -74.0618289,
+      "tags": {
+        "bus": "yes",
+        "name": "Teleférico de Monserrate",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "stop_position",
+        "ref:sitp": "508A00",
+        "source": "BogoMap"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3902481045,
+      "lat": 4.5981348,
+      "lon": -74.0649214,
+      "tags": {
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "Universidad Distrital FAMARENA",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "498A00",
+        "shelter": "no",
+        "source": "BogoMap"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3902481047,
+      "lat": 4.5998475,
+      "lon": -74.0624636,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Universidad de los Andes Campo Deportivo",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "500A00",
+        "shelter": "no",
+        "source": "BogoMap",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3903892705,
+      "lat": 4.6013389,
+      "lon": -74.0615989,
+      "tags": {
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "Centro Las Gaviotas",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "509A00",
+        "shelter": "no",
+        "source": "BogoMap"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3903892706,
+      "lat": 4.6013791,
+      "lon": -74.0615567,
+      "tags": {
+        "bus": "yes",
+        "name": "Centro Las Gaviotas",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "stop_position",
+        "ref:sitp": "509A00",
+        "source": "BogoMap"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3903892710,
+      "lat": 4.6032403,
+      "lon": -74.0645608,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "check_date:shelter": "2024-02-24",
+        "highway": "bus_stop",
+        "name": "Quinta de Bolivar",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "506A00",
+        "shelter": "no",
+        "source": "BogoMap"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3903892711,
+      "lat": 4.6032538,
+      "lon": -74.0645322,
+      "tags": {
+        "bus": "yes",
+        "name": "Quinta de Bolivar",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "stop_position",
+        "ref:sitp": "506A00",
+        "source": "BogoMap"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3903892714,
+      "lat": 4.6031011,
+      "lon": -74.0617865,
+      "tags": {
+        "bus": "yes",
+        "name": "Teleférico de Monserrate",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "stop_position",
+        "ref:sitp": "510A00",
+        "source": "BogoMap"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3903892715,
+      "lat": 4.6031106,
+      "lon": -74.0617021,
+      "tags": {
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "Teleférico de Monserrate",
+        "network": "co:dc:sitp",
+        "operator": "SITP",
+        "public_transport": "platform",
+        "ref:sitp": "510A00",
+        "shelter": "no",
+        "source": "BogoMap"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12536828937,
+      "lat": 4.6028682,
+      "lon": -74.0608939,
+      "tags": {
+        "aerialway": "station",
+        "aerialway:access": "both",
+        "aerialway:summer:access": "both",
+        "name": "Estación Monserrate Teleferico",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12536828938,
+      "lat": 4.6030036,
+      "lon": -74.0608443,
+      "tags": {
+        "name": "Estación Monserrate Funicular",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "funicular"
+      }
+    },
+    {
+      "type": "way",
+      "id": 28555379,
+      "bounds": {
+        "minlat": 4.603599,
+        "minlon": -74.0552256,
+        "maxlat": 4.603599,
+        "maxlon": -74.0551726
+      },
+      "nodes": [
+        1005395546,
+        1151938711
+      ],
+      "geometry": [
+        {
+          "lat": 4.603599,
+          "lon": -74.0551726
+        },
+        {
+          "lat": 4.603599,
+          "lon": -74.0552256
+        }
+      ],
+      "tags": {
+        "name": "Funicular de Monserrate",
+        "name:en": "Monserrate Funicular",
+        "network": "Privado",
+        "operator": "Teleférico a Monserrate S.A.",
+        "railway": "funicular",
+        "source": "Bing"
+      }
+    },
+    {
+      "type": "way",
+      "id": 58868758,
+      "bounds": {
+        "minlat": 4.602687,
+        "minlon": -74.061113,
+        "maxlat": 4.603146,
+        "maxlon": -74.0606887
+      },
+      "nodes": [
+        626207062,
+        729413960,
+        729413962,
+        729413989,
+        729413992,
+        729413994,
+        9699181096,
+        729413996,
+        729413999,
+        729413986,
+        729413988,
+        9699181094,
+        9699181095,
+        729414001,
+        729414003,
+        729414004,
+        729413985,
+        729413983,
+        729413984,
+        729413979,
+        729413980,
+        6363041840,
+        729413963,
+        626207062
+      ],
+      "geometry": [
+        {
+          "lat": 4.602831,
+          "lon": -74.0610069
+        },
+        {
+          "lat": 4.6027745,
+          "lon": -74.060982
+        },
+        {
+          "lat": 4.6028016,
+          "lon": -74.0609204
+        },
+        {
+          "lat": 4.6027636,
+          "lon": -74.0609037
+        },
+        {
+          "lat": 4.6027866,
+          "lon": -74.0608513
+        },
+        {
+          "lat": 4.6027303,
+          "lon": -74.0608265
+        },
+        {
+          "lat": 4.6027504,
+          "lon": -74.0607806
+        },
+        {
+          "lat": 4.602687,
+          "lon": -74.0607526
+        },
+        {
+          "lat": 4.6027151,
+          "lon": -74.0606887
+        },
+        {
+          "lat": 4.6028845,
+          "lon": -74.0607635
+        },
+        {
+          "lat": 4.6028314,
+          "lon": -74.0608846
+        },
+        {
+          "lat": 4.6029185,
+          "lon": -74.0609231
+        },
+        {
+          "lat": 4.6029577,
+          "lon": -74.0608338
+        },
+        {
+          "lat": 4.6030578,
+          "lon": -74.060878
+        },
+        {
+          "lat": 4.603069,
+          "lon": -74.0608524
+        },
+        {
+          "lat": 4.603146,
+          "lon": -74.0608864
+        },
+        {
+          "lat": 4.6031128,
+          "lon": -74.0609622
+        },
+        {
+          "lat": 4.6031405,
+          "lon": -74.0609744
+        },
+        {
+          "lat": 4.6030926,
+          "lon": -74.0610835
+        },
+        {
+          "lat": 4.603005,
+          "lon": -74.0610448
+        },
+        {
+          "lat": 4.6029751,
+          "lon": -74.061113
+        },
+        {
+          "lat": 4.602891,
+          "lon": -74.0610758
+        },
+        {
+          "lat": 4.6028154,
+          "lon": -74.0610424
+        },
+        {
+          "lat": 4.602831,
+          "lon": -74.0610069
+        }
+      ],
+      "tags": {
+        "addr:city": "Bogotá",
+        "addr:country": "CO",
+        "addr:housenumber": "21-48",
+        "addr:postcode": "110311",
+        "addr:province": "Distrito Capital",
+        "addr:street": "Carrera 2 Este",
+        "addr:suburb": "Santa Fé",
+        "building": "yes",
+        "fixme": "potentially separate bukding parts to make the platform part clear",
+        "lit": "yes",
+        "name": "Estación de Teleférico y Funicular Monserrate",
+        "name:en": "Cable Car and Funicular Station Monserrate",
+        "opening_hours": "Mo-Sa 12:00-00:00; Su 10:00-16:30",
+        "operator": "Teleférico a Monserrate S.A.",
+        "phone": "+57 601 2845700",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 86499977,
+      "bounds": {
+        "minlat": 4.6033059,
+        "minlon": -74.0551842,
+        "maxlat": 4.6036248,
+        "maxlon": -74.0548696
+      },
+      "nodes": [
+        1005395606,
+        1005395546,
+        9699269453,
+        9699269454,
+        1005395399,
+        1151938852,
+        9699269459,
+        9699269458,
+        9699269456,
+        9699269455,
+        9699269457,
+        9699269460,
+        3649302951,
+        1005395578,
+        1151938726,
+        3654565324,
+        1005395606
+      ],
+      "geometry": [
+        {
+          "lat": 4.6036208,
+          "lon": -74.0551771
+        },
+        {
+          "lat": 4.603599,
+          "lon": -74.0551726
+        },
+        {
+          "lat": 4.603515,
+          "lon": -74.055153
+        },
+        {
+          "lat": 4.6035049,
+          "lon": -74.0551842
+        },
+        {
+          "lat": 4.6034063,
+          "lon": -74.0551487
+        },
+        {
+          "lat": 4.6034409,
+          "lon": -74.0550355
+        },
+        {
+          "lat": 4.6033252,
+          "lon": -74.054995
+        },
+        {
+          "lat": 4.6033312,
+          "lon": -74.0549757
+        },
+        {
+          "lat": 4.6033059,
+          "lon": -74.0549678
+        },
+        {
+          "lat": 4.6033209,
+          "lon": -74.0549196
+        },
+        {
+          "lat": 4.6033461,
+          "lon": -74.0549275
+        },
+        {
+          "lat": 4.6033641,
+          "lon": -74.0548696
+        },
+        {
+          "lat": 4.6034819,
+          "lon": -74.0548852
+        },
+        {
+          "lat": 4.603596,
+          "lon": -74.0549509
+        },
+        {
+          "lat": 4.6035477,
+          "lon": -74.0551093
+        },
+        {
+          "lat": 4.6036248,
+          "lon": -74.0551396
+        },
+        {
+          "lat": 4.6036208,
+          "lon": -74.0551771
+        }
+      ],
+      "tags": {
+        "building": "yes",
+        "lit": "yes",
+        "name": "Estación de Funicular Monserrate",
+        "name:en": "Cable Car Station Monserrate",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 99625009,
+      "bounds": {
+        "minlat": 4.6045948,
+        "minlon": -74.0556679,
+        "maxlat": 4.6047514,
+        "maxlon": -74.0554022
+      },
+      "nodes": [
+        1151938789,
+        1151938687,
+        5901971699,
+        1151938823,
+        1151938708,
+        6363041848,
+        3654578427,
+        1151938734,
+        6363041847,
+        1151938731,
+        3654438955,
+        1151938789
+      ],
+      "geometry": [
+        {
+          "lat": 4.6046693,
+          "lon": -74.0556679
+        },
+        {
+          "lat": 4.6046553,
+          "lon": -74.0556631
+        },
+        {
+          "lat": 4.6046129,
+          "lon": -74.0556485
+        },
+        {
+          "lat": 4.6045948,
+          "lon": -74.0556423
+        },
+        {
+          "lat": 4.6046329,
+          "lon": -74.0555308
+        },
+        {
+          "lat": 4.6046466,
+          "lon": -74.0554908
+        },
+        {
+          "lat": 4.6046769,
+          "lon": -74.0554022
+        },
+        {
+          "lat": 4.6047514,
+          "lon": -74.0554278
+        },
+        {
+          "lat": 4.6047239,
+          "lon": -74.0555098
+        },
+        {
+          "lat": 4.6046955,
+          "lon": -74.0555912
+        },
+        {
+          "lat": 4.6046916,
+          "lon": -74.0556026
+        },
+        {
+          "lat": 4.6046693,
+          "lon": -74.0556679
+        }
+      ],
+      "tags": {
+        "bench": "no",
+        "bin": "yes",
+        "building": "yes",
+        "lit": "yes",
+        "name": "Estación de Teleférico Monserrate",
+        "name:en": "Aerialway Station Monserrate",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 99625017,
+      "bounds": {
+        "minlat": 4.6030036,
+        "minlon": -74.0608443,
+        "maxlat": 4.6033788,
+        "maxlon": -74.0572811
+      },
+      "nodes": [
+        1151938830,
+        12536828938
+      ],
+      "geometry": [
+        {
+          "lat": 4.6033788,
+          "lon": -74.0572811
+        },
+        {
+          "lat": 4.6030036,
+          "lon": -74.0608443
+        }
+      ],
+      "tags": {
+        "name": "Funicular de Monserrate",
+        "name:en": "Monserrate Funicular",
+        "network": "Privado",
+        "operator": "Teleférico a Monserrate S.A.",
+        "railway": "funicular",
+        "source": "Bing"
+      }
+    },
+    {
+      "type": "way",
+      "id": 99625025,
+      "bounds": {
+        "minlat": 4.6033788,
+        "minlon": -74.0572811,
+        "maxlat": 4.603599,
+        "maxlon": -74.0552256
+      },
+      "nodes": [
+        1151938711,
+        1151938830
+      ],
+      "geometry": [
+        {
+          "lat": 4.603599,
+          "lon": -74.0552256
+        },
+        {
+          "lat": 4.6033788,
+          "lon": -74.0572811
+        }
+      ],
+      "tags": {
+        "name": "Funicular de Monserrate",
+        "name:en": "Monserrate Funicular",
+        "network": "Privado",
+        "operator": "Teleférico a Monserrate S.A.",
+        "railway": "funicular",
+        "source": "Bing",
+        "tunnel": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 360392328,
+      "bounds": {
+        "minlat": 4.6028682,
+        "minlon": -74.0608939,
+        "maxlat": 4.6046553,
+        "maxlon": -74.0556631
+      },
+      "nodes": [
+        1151938687,
+        12030264668,
+        12536828937
+      ],
+      "geometry": [
+        {
+          "lat": 4.6046553,
+          "lon": -74.0556631
+        },
+        {
+          "lat": 4.6045557,
+          "lon": -74.0559527
+        },
+        {
+          "lat": 4.6028682,
+          "lon": -74.0608939
+        }
+      ],
+      "tags": {
+        "aerialway": "cable_car",
+        "aerialway:duration": "5",
+        "name": "Teleférico de Monserrate",
+        "name:en": "Monserrate Cable Car",
+        "network": "Privado",
+        "operator": "Teleférico a Monserrate S.A.",
+        "wikidata": "Q3379327",
+        "wikimedia_commons": "Category:Teleférico de Monserrate",
+        "wikipedia": "es:Teleférico a Monserrate"
+      }
+    }
+  ]
+}
