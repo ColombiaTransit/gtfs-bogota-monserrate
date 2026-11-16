@@ -24,7 +24,7 @@ Each end of the line is a parent station (`location_type=1`) with two platforms:
 | `FUN_CUMBRE` | platform | `CUMBRE` | OSM node 1005395546 |
 | `TEL_CUMBRE` | platform | `CUMBRE` | OSM node 1151938687 |
 
-The OSM node id of each platform is stored in `stop_code` as `osm:node/<id>`, so it can be traced back to the source.
+The OSM node id of each platform is in the table above and in a comment in `build.py`. `stop_code` and `platform_code` are left empty: journey planners show them to passengers (Digitransit shows the stop code under the stop name and the platform code inside the stop marker on the map), so an OSM id or a word like "Teleférico" does not belong there.
 
 ## Routes and shapes
 

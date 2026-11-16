@@ -27,7 +27,7 @@ import holidays  # pip install -r requirements.txt
 
 FEED_START = date(2026, 10, 31)
 FEED_END = date(2027, 10, 31)
-FEED_VERSION = "2026.10.31"
+FEED_VERSION = "2026.11.16"
 
 # Opening hours (start, end) per service type. Departures run up to and
 # including closing time ("The last car departs at closing time").
@@ -87,7 +87,10 @@ FEED_PUBLISHER = {
     "feed_contact_url": "https://github.com/ColombiaTransit/gtfs-bogota-monserrate/issues",
 }
 
-# Stations from OpenStreetMap (node id in stop_code).
+# Stations from OpenStreetMap (node id in the comment). platform_code and
+# stop_code are left empty: journey planners show them to passengers (as a
+# platform label on the map and as the stop code), so OSM ids or long words
+# do not belong there.
 STOPS = [
     # Parent stations (midpoint between their two platforms)
     dict(stop_id="ABAJO", stop_name="Estación Monserrate (abajo)",
@@ -99,20 +102,16 @@ STOPS = [
     # Platforms
     dict(stop_id="FUN_ABAJO", stop_name="Funicular — Estación Monserrate (abajo)",
          stop_lat=4.6030036, stop_lon=-74.0608443, location_type=0,
-         parent_station="ABAJO", platform_code="Funicular",
-         stop_code="osm:node/12536828938"),
+         parent_station="ABAJO"),  # osm:node/12536828938
     dict(stop_id="TEL_ABAJO", stop_name="Teleférico — Estación Monserrate (abajo)",
          stop_lat=4.6028682, stop_lon=-74.0608939, location_type=0,
-         parent_station="ABAJO", platform_code="Teleférico",
-         stop_code="osm:node/12536828937"),
+         parent_station="ABAJO"),  # osm:node/12536828937
     dict(stop_id="FUN_CUMBRE", stop_name="Funicular — Monserrate (cumbre)",
          stop_lat=4.603599, stop_lon=-74.0551726, location_type=0,
-         parent_station="CUMBRE", platform_code="Funicular",
-         stop_code="osm:node/1005395546"),
+         parent_station="CUMBRE"),  # osm:node/1005395546
     dict(stop_id="TEL_CUMBRE", stop_name="Teleférico — Monserrate (cumbre)",
          stop_lat=4.6046553, stop_lon=-74.0556631, location_type=0,
-         parent_station="CUMBRE", platform_code="Teleférico",
-         stop_code="osm:node/1151938687"),
+         parent_station="CUMBRE"),  # osm:node/1151938687
 ]
 
 ROUTES = [
