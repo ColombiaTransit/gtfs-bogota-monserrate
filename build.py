@@ -27,7 +27,7 @@ import holidays  # pip install -r requirements.txt
 
 FEED_START = date(2026, 10, 31)
 FEED_END = date(2027, 10, 31)
-FEED_VERSION = "2026.11.16"
+FEED_VERSION = "2026.11.16.2"
 
 # Opening hours (start, end) per service type. Departures run up to and
 # including closing time ("The last car departs at closing time").
@@ -239,11 +239,14 @@ def build(out_path="monserrate-gtfs.zip"):
                           shape_id=f"{route}_{d}", wheelchair_accessible=0,
                           bikes_allowed=2))
         stop_times.extend([
+            # Board only at the start and alight only at the end, so a stop page
+            # does not list arriving cars as departures.
             dict(trip_id=trip_id, arrival_time="00:00:00", departure_time="00:00:00",
-                 stop_id=frm, stop_sequence=1, timepoint=0, shape_dist_traveled=0),
+                 stop_id=frm, stop_sequence=1, pickup_type=0, drop_off_type=1,
+                 timepoint=0, shape_dist_traveled=0),
             dict(trip_id=trip_id, arrival_time=hms(ride), departure_time=hms(ride),
-                 stop_id=to, stop_sequence=2, timepoint=0,
-                 shape_dist_traveled=shape_len[f"{route}_{d}"]),
+                 stop_id=to, stop_sequence=2, pickup_type=1, drop_off_type=0,
+                 timepoint=0, shape_dist_traveled=shape_len[f"{route}_{d}"]),
         ])
         freqs.append(dict(trip_id=trip_id, start_time=start, end_time=end,
                           headway_secs=HEADWAY_SECS, exact_times=0))
